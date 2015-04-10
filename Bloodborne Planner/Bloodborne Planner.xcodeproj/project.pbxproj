@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B320C5981AD713E200F48308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5971AD713E200F48308 /* AppDelegate.swift */; };
+		B320C59A1AD713E200F48308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5991AD713E200F48308 /* ViewController.swift */; };
+		B320C59D1AD713E200F48308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B320C59B1AD713E200F48308 /* Main.storyboard */; };
+		B320C59F1AD713E200F48308 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B320C59E1AD713E200F48308 /* Images.xcassets */; };
+		B320C5A21AD713E200F48308 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B320C5A01AD713E200F48308 /* LaunchScreen.xib */; };
+		B320C5AE1AD713E200F48308 /* Bloodborne_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5AD1AD713E200F48308 /* Bloodborne_PlannerTests.swift */; };
+		B320C5B81AD7159B00F48308 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5B71AD7159B00F48308 /* Item.swift */; };
+		B320C5BA1AD716F000F48308 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5B91AD716F000F48308 /* Weapon.swift */; };
+		B320C5BC1AD7173D00F48308 /* BloodGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5BB1AD7173D00F48308 /* BloodGem.swift */; };
+		B320C5BE1AD7178500F48308 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5BD1AD7178500F48308 /* Character.swift */; };
+		B320C5C01AD71A5500F48308 /* characterInits in Resources */ = {isa = PBXBuildFile; fileRef = B320C5BF1AD71A5500F48308 /* characterInits */; };
+		B320C5C21AD72EFE00F48308 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B320C5C11AD72EFE00F48308 /* View1.xib */; };
+		B320C5F41AD7615200F48308 /* MyViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5F31AD7615200F48308 /* MyViewController2.swift */; };
+		B320C5F61AD762BC00F48308 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5F51AD762BC00F48308 /* MainViewController.swift */; };
+		B320C5F81AD764AC00F48308 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5F71AD764AC00F48308 /* ItemViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B320C5A81AD713E200F48308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B320C58A1AD713E200F48308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B320C5911AD713E200F48308;
+			remoteInfo = "Bloodborne Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B320C5921AD713E200F48308 /* Bloodborne Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bloodborne Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B320C5961AD713E200F48308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B320C5971AD713E200F48308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B320C5991AD713E200F48308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B320C59C1AD713E200F48308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B320C59E1AD713E200F48308 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B320C5A11AD713E200F48308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B320C5A71AD713E200F48308 /* Bloodborne PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bloodborne PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B320C5AC1AD713E200F48308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B320C5AD1AD713E200F48308 /* Bloodborne_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bloodborne_PlannerTests.swift; sourceTree = "<group>"; };
+		B320C5B71AD7159B00F48308 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B320C5B91AD716F000F48308 /* Weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		B320C5BB1AD7173D00F48308 /* BloodGem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodGem.swift; sourceTree = "<group>"; };
+		B320C5BD1AD7178500F48308 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		B320C5BF1AD71A5500F48308 /* characterInits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = characterInits; sourceTree = "<group>"; };
+		B320C5C11AD72EFE00F48308 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		B320C5F31AD7615200F48308 /* MyViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController2.swift; sourceTree = "<group>"; };
+		B320C5F51AD762BC00F48308 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B320C5F71AD764AC00F48308 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B320C58F1AD713E200F48308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320C5A41AD713E200F48308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B320C5891AD713E200F48308 = {
+			isa = PBXGroup;
+			children = (
+				B320C5941AD713E200F48308 /* Bloodborne Planner */,
+				B320C5AA1AD713E200F48308 /* Bloodborne PlannerTests */,
+				B320C5931AD713E200F48308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B320C5931AD713E200F48308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B320C5921AD713E200F48308 /* Bloodborne Planner.app */,
+				B320C5A71AD713E200F48308 /* Bloodborne PlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B320C5941AD713E200F48308 /* Bloodborne Planner */ = {
+			isa = PBXGroup;
+			children = (
+				B320C5B91AD716F000F48308 /* Weapon.swift */,
+				B320C5971AD713E200F48308 /* AppDelegate.swift */,
+				B320C5B71AD7159B00F48308 /* Item.swift */,
+				B320C5991AD713E200F48308 /* ViewController.swift */,
+				B320C59B1AD713E200F48308 /* Main.storyboard */,
+				B320C59E1AD713E200F48308 /* Images.xcassets */,
+				B320C5A01AD713E200F48308 /* LaunchScreen.xib */,
+				B320C5951AD713E200F48308 /* Supporting Files */,
+				B320C5BB1AD7173D00F48308 /* BloodGem.swift */,
+				B320C5BD1AD7178500F48308 /* Character.swift */,
+				B320C5BF1AD71A5500F48308 /* characterInits */,
+				B320C5C11AD72EFE00F48308 /* View1.xib */,
+				B320C5F31AD7615200F48308 /* MyViewController2.swift */,
+				B320C5F51AD762BC00F48308 /* MainViewController.swift */,
+				B320C5F71AD764AC00F48308 /* ItemViewController.swift */,
+			);
+			path = "Bloodborne Planner";
+			sourceTree = "<group>";
+		};
+		B320C5951AD713E200F48308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B320C5961AD713E200F48308 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B320C5AA1AD713E200F48308 /* Bloodborne PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B320C5AD1AD713E200F48308 /* Bloodborne_PlannerTests.swift */,
+				B320C5AB1AD713E200F48308 /* Supporting Files */,
+			);
+			path = "Bloodborne PlannerTests";
+			sourceTree = "<group>";
+		};
+		B320C5AB1AD713E200F48308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B320C5AC1AD713E200F48308 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B320C5911AD713E200F48308 /* Bloodborne Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B320C5B11AD713E200F48308 /* Build configuration list for PBXNativeTarget "Bloodborne Planner" */;
+			buildPhases = (
+				B320C58E1AD713E200F48308 /* Sources */,
+				B320C58F1AD713E200F48308 /* Frameworks */,
+				B320C5901AD713E200F48308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bloodborne Planner";
+			productName = "Bloodborne Planner";
+			productReference = B320C5921AD713E200F48308 /* Bloodborne Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B320C5A61AD713E200F48308 /* Bloodborne PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B320C5B41AD713E200F48308 /* Build configuration list for PBXNativeTarget "Bloodborne PlannerTests" */;
+			buildPhases = (
+				B320C5A31AD713E200F48308 /* Sources */,
+				B320C5A41AD713E200F48308 /* Frameworks */,
+				B320C5A51AD713E200F48308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B320C5A91AD713E200F48308 /* PBXTargetDependency */,
+			);
+			name = "Bloodborne PlannerTests";
+			productName = "Bloodborne PlannerTests";
+			productReference = B320C5A71AD713E200F48308 /* Bloodborne PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B320C58A1AD713E200F48308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Sawaske;
+				TargetAttributes = {
+					B320C5911AD713E200F48308 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B320C5A61AD713E200F48308 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B320C5911AD713E200F48308;
+					};
+				};
+			};
+			buildConfigurationList = B320C58D1AD713E200F48308 /* Build configuration list for PBXProject "Bloodborne Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B320C5891AD713E200F48308;
+			productRefGroup = B320C5931AD713E200F48308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B320C5911AD713E200F48308 /* Bloodborne Planner */,
+				B320C5A61AD713E200F48308 /* Bloodborne PlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B320C5901AD713E200F48308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B320C5C21AD72EFE00F48308 /* View1.xib in Resources */,
+				B320C59D1AD713E200F48308 /* Main.storyboard in Resources */,
+				B320C5A21AD713E200F48308 /* LaunchScreen.xib in Resources */,
+				B320C5C01AD71A5500F48308 /* characterInits in Resources */,
+				B320C59F1AD713E200F48308 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320C5A51AD713E200F48308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B320C58E1AD713E200F48308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B320C59A1AD713E200F48308 /* ViewController.swift in Sources */,
+				B320C5F41AD7615200F48308 /* MyViewController2.swift in Sources */,
+				B320C5BA1AD716F000F48308 /* Weapon.swift in Sources */,
+				B320C5B81AD7159B00F48308 /* Item.swift in Sources */,
+				B320C5BE1AD7178500F48308 /* Character.swift in Sources */,
+				B320C5BC1AD7173D00F48308 /* BloodGem.swift in Sources */,
+				B320C5981AD713E200F48308 /* AppDelegate.swift in Sources */,
+				B320C5F61AD762BC00F48308 /* MainViewController.swift in Sources */,
+				B320C5F81AD764AC00F48308 /* ItemViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320C5A31AD713E200F48308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B320C5AE1AD713E200F48308 /* Bloodborne_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B320C5A91AD713E200F48308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B320C5911AD713E200F48308 /* Bloodborne Planner */;
+			targetProxy = B320C5A81AD713E200F48308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B320C59B1AD713E200F48308 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B320C59C1AD713E200F48308 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B320C5A01AD713E200F48308 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B320C5A11AD713E200F48308 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B320C5AF1AD713E200F48308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B320C5B01AD713E200F48308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B320C5B21AD713E200F48308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bloodborne Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B320C5B31AD713E200F48308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bloodborne Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B320C5B51AD713E200F48308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bloodborne PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bloodborne Planner.app/Bloodborne Planner";
+			};
+			name = Debug;
+		};
+		B320C5B61AD713E200F48308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bloodborne PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bloodborne Planner.app/Bloodborne Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B320C58D1AD713E200F48308 /* Build configuration list for PBXProject "Bloodborne Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B320C5AF1AD713E200F48308 /* Debug */,
+				B320C5B01AD713E200F48308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B320C5B11AD713E200F48308 /* Build configuration list for PBXNativeTarget "Bloodborne Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B320C5B21AD713E200F48308 /* Debug */,
+				B320C5B31AD713E200F48308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B320C5B41AD713E200F48308 /* Build configuration list for PBXNativeTarget "Bloodborne PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B320C5B51AD713E200F48308 /* Debug */,
+				B320C5B61AD713E200F48308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B320C58A1AD713E200F48308 /* Project object */;
+}
