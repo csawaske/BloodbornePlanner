@@ -18,7 +18,6 @@
 		B320C5BC1AD7173D00F48308 /* BloodGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5BB1AD7173D00F48308 /* BloodGem.swift */; };
 		B320C5BE1AD7178500F48308 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5BD1AD7178500F48308 /* Character.swift */; };
 		B320C5C01AD71A5500F48308 /* characterInits in Resources */ = {isa = PBXBuildFile; fileRef = B320C5BF1AD71A5500F48308 /* characterInits */; };
-		B320C5C21AD72EFE00F48308 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B320C5C11AD72EFE00F48308 /* View1.xib */; };
 		B320C5F41AD7615200F48308 /* MyViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5F31AD7615200F48308 /* MyViewController2.swift */; };
 		B320C5F61AD762BC00F48308 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5F51AD762BC00F48308 /* MainViewController.swift */; };
 		B320C5F81AD764AC00F48308 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C5F71AD764AC00F48308 /* ItemViewController.swift */; };
@@ -50,7 +49,6 @@
 		B320C5BB1AD7173D00F48308 /* BloodGem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodGem.swift; sourceTree = "<group>"; };
 		B320C5BD1AD7178500F48308 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		B320C5BF1AD71A5500F48308 /* characterInits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = characterInits; sourceTree = "<group>"; };
-		B320C5C11AD72EFE00F48308 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
 		B320C5F31AD7615200F48308 /* MyViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController2.swift; sourceTree = "<group>"; };
 		B320C5F51AD762BC00F48308 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B320C5F71AD764AC00F48308 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				B320C5BB1AD7173D00F48308 /* BloodGem.swift */,
 				B320C5BD1AD7178500F48308 /* Character.swift */,
 				B320C5BF1AD71A5500F48308 /* characterInits */,
-				B320C5C11AD72EFE00F48308 /* View1.xib */,
 				B320C5F31AD7615200F48308 /* MyViewController2.swift */,
 				B320C5F51AD762BC00F48308 /* MainViewController.swift */,
 				B320C5F71AD764AC00F48308 /* ItemViewController.swift */,
@@ -219,7 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B320C5C21AD72EFE00F48308 /* View1.xib in Resources */,
 				B320C59D1AD713E200F48308 /* Main.storyboard in Resources */,
 				B320C5A21AD713E200F48308 /* LaunchScreen.xib in Resources */,
 				B320C5C01AD71A5500F48308 /* characterInits in Resources */,
@@ -449,6 +445,7 @@
 				B320C5B31AD713E200F48308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B320C5B41AD713E200F48308 /* Build configuration list for PBXNativeTarget "Bloodborne PlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +454,7 @@
 				B320C5B61AD713E200F48308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

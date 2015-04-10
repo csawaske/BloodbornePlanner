@@ -5,10 +5,48 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="1Kg-m5-tF7">
+            <objects>
+                <viewController id="YU3-3h-L5U" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ofv-BA-35U"/>
+                        <viewControllerLayoutGuide type="bottom" id="EIS-Dl-5MU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dVS-1t-MYH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView tag="2" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tlI-yV-3lf">
+                                <rect key="frame" x="0.0" y="143" width="414" height="63"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose Character:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOV-C0-oB9">
+                                <rect key="frame" x="135" y="101" width="145" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9y7-Qx-xn7">
+                                <rect key="frame" x="162" y="237" width="91" height="30"/>
+                                <state key="normal" title="Create new...">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Dak-9d-3Id"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P9R-OK-4cT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="-1895"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <tapGestureRecognizer id="spZ-TO-6rA"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bloodborne_Planner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -48,9 +86,9 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <pickerView tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="adW-f3-4yU">
-                                <rect key="frame" x="0.0" y="173" width="414" height="35"/>
+                                <rect key="frame" x="153" y="173" width="97" height="35"/>
                                 <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="uKa-iJ-5K3"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="eJB-He-KQA"/>
                                 </connections>
                             </pickerView>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YhD-aN-hjm">
@@ -65,7 +103,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3VY-i5-f6Y"/>
+                                    <action selector="pressedTheButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="epH-TB-4xo"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbL-W2-wgl">
@@ -74,6 +112,11 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hgn-5m-0ZO">
+                                <rect key="frame" x="153" y="176" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -82,11 +125,14 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="classChoice" destination="YhD-aN-hjm" id="9lJ-cd-H2i"/>
-                        <outlet property="genderChoice" destination="adW-f3-4yU" id="Hw4-Jh-hBZ"/>
+                        <outlet property="genderChoice" destination="adW-f3-4yU" id="nuo-PO-FL7"/>
+                        <outlet property="genderLabel" destination="Hgn-5m-0ZO" id="Jeq-tz-pCb"/>
                         <outlet property="nameInput" destination="EqA-th-Ucp" id="ca9-wm-GLe"/>
-                        <outlet property="summary" destination="SbL-W2-wgl" id="wCN-2a-9tV"/>
+                        <outlet property="summary" destination="SbL-W2-wgl" id="cqW-Ka-YTo"/>
                     </connections>
                 </viewController>
+                <tapGestureRecognizer id="spZ-TO-6rA"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="744" y="-1569"/>
         </scene>
@@ -123,12 +169,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evl-iq-edL">
-                                <rect key="frame" x="146" y="86" width="123" height="30"/>
-                                <state key="normal" title="Character Creator">
+                                <rect key="frame" x="146" y="86" width="113" height="30"/>
+                                <state key="normal" title="Character Editor">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="wUP-mW-VkF"/>
+                                    <segue destination="YU3-3h-L5U" kind="show" id="bUK-0w-1FF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9w4-V6-yxk">
